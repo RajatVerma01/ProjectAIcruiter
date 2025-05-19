@@ -27,14 +27,6 @@ import {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCg-6cblknwQjUtquSuR4DDT9x6oJqddW0",
-    authDomain: "aicruiter-9f603.firebaseapp.com",
-    projectId: "aicruiter-9f603",
-    storageBucket: "aicruiter-9f603.firebasestorage.app",
-    messagingSenderId: "11182193282",
-    appId: "1:11182193282:web:35aba860a376db2f4fd29b",
-    measurementId: "G-RQSQX0PFPX",
-    databaseURL: "https://aicruiter-9f603-default-rtdb.firebaseio.com"
 };
 
 // Initialize Firebase
