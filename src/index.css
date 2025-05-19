@@ -1,0 +1,19 @@
+/* Import Bricolage Grotesque font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+/* Apply font to inputs, buttons, and other form elements */
+input, button, textarea, select {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+/* Ensure font is applied to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}

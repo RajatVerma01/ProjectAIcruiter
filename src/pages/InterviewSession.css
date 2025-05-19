@@ -1,0 +1,280 @@
+.interview-session-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.interview-header {
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.interview-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.interview-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Countdown Styles */
+.countdown-container {
+    text-align: center;
+    background: linear-gradient(135deg, #f6f8fd 0%, #f1f1fa 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.countdown-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-value {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #937CE3;
+    line-height: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    min-width: 4rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time-label {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+/* Session Actions */
+.session-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.start-button {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: #937CE3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #7b66cc;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(147, 124, 227, 0.4);
+}
+
+.back-button {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: #f6f6f6;
+    color: #666;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #eaeaea;
+}
+
+/* Preparation Tips */
+.preparation-tips {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    border-left: 4px solid #937CE3;
+}
+
+.preparation-tips h3 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.preparation-tips ul {
+    padding-left: 1.5rem;
+}
+
+.preparation-tips li {
+    margin-bottom: 0.5rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Active Session */
+.active-session {
+    text-align: center;
+}
+
+.active-session h2 {
+    color: #937CE3;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.video-container {
+    margin-bottom: 2rem;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 500px;
+    position: relative;
+}
+
+.placeholder-video {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+}
+
+.placeholder-video p {
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.session-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.control-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.control-button.mute {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.control-button.video {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.control-button.share {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.control-button.end {
+    background-color: #ff5252;
+    color: white;
+}
+
+.control-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.control-button.end:hover {
+    background-color: #ff3838;
+}
+
+/* Loading and Error States */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.error-message {
+    padding: 2rem;
+    background-color: #fff5f5;
+    border-left: 4px solid #ff5252;
+    color: #d32f2f;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .interview-session-container {
+        padding: 1rem;
+    }
+
+    .interview-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .countdown {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .time-value {
+        font-size: 2rem;
+        min-width: 3rem;
+    }
+
+    .session-actions {
+        flex-direction: column;
+    }
+
+    .start-button, .back-button {
+        width: 100%;
+    }
+
+    .session-controls {
+        flex-wrap: wrap;
+    }
+
+    .control-button {
+        flex: 1;
+        min-width: 120px;
+    }
+
+    .video-container {
+        height: 300px;
+    }
+} 
